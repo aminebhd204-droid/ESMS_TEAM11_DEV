@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(./Resources/bg.png);
+    line-height: normal;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+nav{
+    height: 250px;
+}
+
+.imglogo{
+    max-height: 100%;
+}
+
+.headline{
+    font-family: "Orbitron", sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.toppart{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: white;
+}
+
+.middlepart{
+    position: relative;
+}
+
+.img2 { 
+    transform: rotate(-15deg); 
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: -150px;
+    left: 220px;
+}
+
+.bottompart{
+    height: 500px;
+    margin-top: 900px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.headline2{
+    font-family: "Orbitron", sans-serif;
+    font-size: 90px;
+    font-weight: 300;
+}
+
+.buttonstyle1{
+    background-color: grey;
+    padding: 20px 5px;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;
+    border-radius: 15px;
+    opacity: 30%;
+}
+.buttonstyle{
+    background-color: grey;
+    color: white;
+    padding: 20px 30px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;  
+    border-radius: 15px;
+    opacity: 30%; 
+}
+
+.butt1{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    box-shadow: 0 0 30px hsl(195, 78%, 57%), 0 0 0px hsl(195, 78%, 57%);
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
+
+.butt2{
+    position: absolute;
+    left: 20px;
+    top: 250px;
+    box-shadow: 0 0 30px hsl(195, 78%, 57%), 0 0 0px hsl(195, 78%, 57%);
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
+
+.butt3{
+    position:absolute;
+    top: 700px;
+    right: 450px;
+    box-shadow: 0 0 30px hsl(195, 78%, 57%), 0 0 0px hsl(195, 78%, 57%);
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
